@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulado</title>
+  <style>
+   
+    body {
+   
+      font-family: Arial, sans-serif;
+      background-color: #a7c2dd;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    h1 {
+        text-align: center;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="radio"] {
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: #385a7c;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+      text-align: center;
+    }
+    #pergunta1, #pergunta2, #pergunta3, #pergunta4, #pergunta5, #pergunta6, #pergunta7, #pergunta8, #pergunta9, #pergunta10, #pergunta11, #pergunta12, #pergunta13, #pergunta14, #pergunta15, #pergunta16, #pergunta17, #pergunta18, #pergunta19, #pergunta20{
+       
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.83);
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .resultado {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .resposta-correta {
+      color: rgb(22, 205, 129);
+    }
+    .resposta-incorreta {
+      color: rgb(255, 66, 66);
+    }
+    #ir {
+        margin-left: 40%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+       
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Teoria da literatura</h1>
+
+<div id="pergunta1">
+
+          <label data-resposta-correta="a">1. (Enem 2013) Mal secreto<br>
+    Se a cólera que espuma, a dor que mora<br>
+    N’alma, e destrói cada ilusão que nasce,<br>
+    Tudo o que punge, tudo o que devora<br>
+    O coração, no rosto se estampasse;<br>
+    Se se pudesse, o espírito que chora,<br>
+    Ver através da máscara da face,<br>
+    Quanta gente, talvez, que inveja agora<br>
+    Nos causa, então piedade nos causasse!<br>
+    Quanta gente que ri, talvez, consigo<br>
+    Guarda um atroz, recôndito inimigo,<br>
+    Como invisível chaga cancerosa!<br>
+    Quanta gente que ri, talvez existe,<br>
+    Cuja ventura única consiste<br>
+    Em parecer aos outros venturosa!<br>
+    CORREIA, R. In: PATRIOTA, M. Para compreender
+    Raimundo Correia. Brasília: Alhambra, 1995<br>
+    
+    Coerente com a proposta parnasiana de cuidado formal e
+    racionalidade na condução temática, o soneto de Raimundo
+    Correia reflete sobre a forma como as emoções do
+    indivíduo são julgadas em sociedade. Na concepção do eu
+    lírico, esse julgamento revela que</label>
+    
+          <label for="a1"><input type="radio" id="a1" name="resposta1" value="a">a) a necessidade de ser socialmente aceito leva o indivíduo
+    a agir de forma dissimulada.</label>
+    
+          <label for="b1"><input type="radio" id="b1" name="resposta1" value="b">b) o sofrimento íntimo torna-se mais ameno quando
+    compartilhado por um grupo social.</label>
+    
+          <label for="c1"><input type="radio" id="c1" name="resposta1" value="c">c) a capacidade de perdoar e aceitar as diferenças neutraliza
+    o sentimento de inveja.</label>
+    
+          <label for="d1"><input type="radio" id="d1" name="resposta1" value="d">d) o instinto de solidariedade conduz o indivíduo a apiedarse do próximo.</label>
+    
+          <label for="e1"><input type="radio" id="e1" name="resposta1" value="e">e) a transfiguração da angústia em alegria é um artifício
+    nocivo ao convívio social.</label>
+    
+          <div class="resultado" id="resultado1"></div>
+    
+          <button type="button" onclick="verificarRespostasIndividual(1, 'a')">Verificar Resposta</button>
+    
+        </div>
+    
+     
+    
+        <div id="pergunta2">
+    
+          <label data-resposta-correta="c">2. (Enem 2011) Texto I <br>
+        O meu nome é Severino,<br>
+        não tenho outro de pia.<br>
+        Como há muitos Severinos,<br>
+        que é santo de romaria,<br>
+        deram então de me chamar<br>
+        Severino de Maria;<br>
+        como há muitos Severinos<br>
+        com mães chamadas Maria,<br>
+        fiquei sendo o da Maria,<br>
+        do finado Zacarias,<br>
+        mas isso ainda diz pouco:<br>
+        há muitos na freguesia,<br>
+        por causa de um coronel<br>
+        que se chamou Zacarias<br>
+        e que foi o mais antigo<br>
+        senhor desta sesmaria<br>
+        Como então dizer quem fala<br>
+ora a Vossas Senhorias?<br>
+
+MELO NETO, J. C. Obras completa. Rio de Janeiro:
+Aguilar, 1994 (fragmento)<br>
+Texto II
+
+João Cabral, que já emprestara sua voz ao rio, transfere-a,
+aqui, ao retirante Severino, que, como o Capibaribe,
+também segue no caminho do Recife. A autoapresentação
+do personagem, na fala inicial do texto, nos mostra um
+Severino que, quanto mais se define, menos se
+individualiza, pois seus traços biográficos são sempre
+partilhados por outros homens.<br>
+SECCHIN, A. C. João Cabral: a poesia do menos. Rio de
+Janeiro: Topbooks, 1999 (fragmento).<br>
+Com base no trecho de Morte e Vida Severina (Texto I) e
+na análise crítica (Texto II), observa-se que a relação entre
+o texto poético e o contexto social a que ele faz referência
+aponta para um problema social expresso literariamente
+pela pergunta “Como então dizer quem fala/ ora a Vossas
+Senhorias?”. A resposta à pergunta expressa no poema é
+dada por meio da
+    </label>
+    
+         
+    
+          <label for="a2"><input type="radio" id="a2" name="resposta2" value="a">a) descrição minuciosa dos traços biográficos personagemnarrador</label>
+    
+          <label for="b2"><input type="radio" id="b3" name="resposta2" value="b">b) construção da figura do retirante nordestino como um
+        homem resignado com a sua situação.</label>
+    
+          <label for="c2"><input type="radio" id="c2" name="resposta2" value="c">c) representação, na figura do personagem-narrador, de
+        outros Severinos que compartilham sua condição. </label>
+    
+          <label for="d2"><input type="radio" id="d2" name="resposta2" value="d">d) apresentação do personagem-narrador como uma
+        projeção do próprio poeta em sua crise existencial.</label>
+    
+          <label for="e2"><input type="radio" id="e2" name="resposta2" value="e">e) descrição de Severino, que, apesar de humilde, orgulhase de ser descendente do coronel Zacarias</label>
+    
+     
+    
+          <div class="resultado" id="resultado2"></div>
+    
+        <div class="centro"><button type="button" onclick="verificarRespostasIndividual(2, 'c')">Verificar Resposta</button></div>
+    
+        </div>
+    
+     
+    
+     
+    
+        <div id="pergunta3">
+    
+          <label data-resposta-correta="d">3. (Enem 2ª aplicação 2010) Prima Julieta<br>
+        Prima Julieta irradiava um fascínio singular. Era a
+        feminilidade em pessoa. Quando a conheci, sendo ainda
+        garoto e já sensibilíssimo ao charme feminino, teria ela uns
+        trinta ou trinta e dois anos de idade.<br>
+        Apenas pelo seu andar percebia-se que era uma deusa, diz
+        Virgílio de outra mulher. Prima Julieta caminhava em ritmo
+        lento, agitando a cabeça para trás, remando os belos braços
+        brancos. A cabeleira loura incluía reflexos metálicos. Ancas
+        poderosas. Os olhos de um verde azulado borboleteavam. A
+        voz rouca e ácida, em dois planos: voz de pessoa da alta
+        sociedade.<br>
+        MENDES, M. A idade do serrote. Rio de Janeiro: Sabiá,
+        1968.<br>
+        Entre os elementos constitutivos dos gêneros, está o modo
+        como se organiza a própria composição textual, tendo-se
+        em vista o objetivo de seu autor: narrar, descrever,
+        argumentar, explicar, instruir. No trecho, reconhece-se uma
+        sequência textual</label>
+    
+          <label for="a3"><input type="radio" id="a3" name="resposta3" value="a">a) explicativa, em que se expõem informações objetivas
+        referentes à prima Julieta.</label>
+    
+          <label for="b3"><input type="radio" id="b3" name="resposta3" value="b">b) instrucional, em que se ensina o comportamento
+        feminino, inspirado em prima Julieta.</label>
+    
+          <label for="c3"><input type="radio" id="c3" name="resposta3" value="c">c) narrativa, em que se contam fatos que, no decorrer do
+        tempo, envolvem prima Julieta.</label>
+    
+          <label for="d3"><input type="radio" id="d3" name="resposta3" value="d">d) descritiva, em que se constrói a imagem de prima Julieta
+        a partir do que os sentidos do enunciador captam.</label>
+    
+          <label for="e3"><input type="radio" id="e3" name="resposta3" value="e">e) argumentativa, em que se defende a opinião do
+        enunciador sobre prima Julieta, buscando-se a adesão do
+        leitor a essas ideias</label>
+    
+          <div class="resultado" id="resultado3"></div>
+    
+         <div class="centro"><button type="button" onclick="verificarRespostasIndividual(3, 'd')">Verificar Resposta</button></div>
+    
+        </div>
+    
+     
+    
+        <div id="pergunta4">
+    
+            <label data-resposta-correta="b">
+        4. (Enem cancelado 2009) Dario vinha apressado, guardachuva no braço esquerdo e, assim que dobrou a esquina,
+diminuiu o passo até parar, encostando-se à parede de uma
+casa. Por ela escorregando, sentou-se na calçada, ainda
+úmida da chuva, e descansou na pedra o cachimbo.<br>
+Dois ou três passantes rodearam-no e indagaram se não se
+sentia bem. Dario abriu a boca, moveu os lábios, não se
+ouviu resposta. O senhor gordo, de branco, sugeriu que
+devia sofrer de ataque.<br>
+TREVISAN, D. Uma vela para Dario. Cemitério de
+Elefantes. Rio de Janeiro: Civilização Brasileira, 1964
+(adaptado)<br>
+No texto, um acontecimento é narrado em linguagem
+literária. Esse mesmo fato, se relatado em versão
+jornalística, com características de notícia, seria
+identificado em
+    </label>
+    
+     
+           <label for="a4"><input type="radio" id="a4" name="resposta4" value="a">a) Aí, amigão, fui diminuindo o passo e tentei me apoiar no
+            guarda-chuva... mas não deu. Encostei na parede e fui
+            escorregando. Foi mal, cara! Perdi os sentidos ali
+            mesmo. Um povo que passava falou comigo e tentou me
+            socorrer. E eu, ali, estatelado, sem conseguir falar nada!
+            Cruzes! Que mal!</label>
+            <label for="b4"><input type="radio" id="b4" name="resposta4" value="b">b) O representante comercial Dario Ferreira, 43 anos, não
+        resistiu e caiu na calçada da Rua da Abolição, quase
+        esquina com a Padre Vieira, no centro da cidade, ontem
+        por volta do meio-dia. O homem ainda tentou apoiar-se
+        no guarda-chuva que trazia, mas não conseguiu. Aos
+        populares que tentaram socorrê-lo não conseguiu dar
+        qualquer informação.</label>
+    
+            <label for="c4"><input type="radio" id="c4" name="resposta4" value="c">c) Eu logo vi que podia se tratar de um ataque. Eu vinha
+        logo atrás. O homem, todo aprumado, de guarda--chuva
+        no braço e cachimbo na boca, dobrou a esquina e foi
+        diminuindo o passo até se sentar no chão da calçada.
+        Algumas pessoas que passavam pararam para ajudar,
+        mas ele nem conseguia falar.</label>
+    
+            <label for="d4"><input type="radio" id="d4" name="resposta4" value="d">d) Vítima
+        Idade: entre 40 e 45 anos
+        Sexo: masculino
+        Cor: branca
+        Ocorrência: Encontrado desacordado na Rua da Abolição,
+        quase esquina com Padre Vieira.
+        Ambulância chamada às 12h34min por homem
+        desconhecido. A caminho
+   </label>
+    
+            <label for="e4"><input type="radio" id="e4" name="resposta4" value="e">e) Pronto socorro? Por favor, tem um homem caído na
+        calçada da rua da Abolição, quase esquina com a Padre
+        Vieira. Ele parece desmaiado. Tem um grupo de pessoas
+        em volta dele. Mas parece que ninguém aqui pode
+        ajudar. Ele precisa de uma ambulância rápido. Por favor,
+        venham logo!</label>
+    
+            <div class="resultado" id="resultado3"></div>
+    
+            <button type="button" onclick="verificarRespostasIndividual(4, 'b')">Verificar Resposta</button>
+    
+          </div>
+    
+     
+    
+          <div id="pergunta5">
+    
+            <label data-resposta-correta="c">5. (Enem cancelado 2009) Texto I
+        Principiei a leitura de má vontade. E logo emperrei na
+        história de um menino vadio que, dirigindo-se à escola, se
+        retardava a conversar com os passarinhos e recebia deles
+        opiniões sisudas e bons conselhos. Em seguida vinham
+        outros irracionais, igualmente bem-intencionados e bem
+        falantes. Havia a moscazinha que morava na parede de uma
+        chaminé e voava à toa, desobedecendo às ordens maternas,
+        e tanto voou que afinal caiu no fogo. Esses contos me
+        intrigaram com o [livro] Barão de Macaúbas. Infelizmente
+        um doutor, utilizando bichinhos, impunha-nos a linguagem
+        dos doutores. — Queres tu brincar comigo? O passarinho,
+        no galho, respondia com preceito e moral, e a mosca usava
+        adjetivos colhidos no dicionário. A figura do barão
+        manchava o frontispício do livro, e a gente percebia que era
+        dele o pedantismo atribuído à mosca e ao passarinho.
+        Ridículo um indivíduo hirsuto e grave, doutor e barão,
+        pipilar conselhos, zumbir admoestações.<br>
+        RAMOS, G. Infância. Rio de Janeiro: Record, 1986
+        (adaptado).<br>
+        Texto II<br>
+        Dado que a literatura, como a vida, ensina na medida em
+        que atua com toda sua gama, é artificial querer que ela
+        funcione como os manuais de virtude e boa conduta. E a
+        sociedade não pode senão escolher o que em cada momento
+        lhe parece adaptado aos seus fins, enfrentando ainda assim
+        os mais curiosos paradoxos, pois mesmo as obras
+        consideradas indispensáveis para a formação do moço
+        trazem frequentemente o que as convenções desejariam
+        banir. Aliás, essa espécie de inevitável contrabando é um
+        dos meios por que o jovem entra em contato com realidades
+        que se tenciona escamotear-lhe. <br>
+        CANDIDO, A. A literatura e a formação do homem. Duas
+        Cidades. São Paulo: Ed. 34, 2002 (adaptado).<br>
+        Os dois textos acima, com enfoques diferentes, abordam
+        um mesmo problema, que se refere, simultaneamente, ao
+        campo literário e ao social. Considerando-se a relação entre
+        os dois textos, verifica-se que eles têm em comum o fato de
+        que</label>
+    
+            </label>
+    
+            <label for="a5"><input type="radio" id="a5" name="resposta5" value="a">a) tratam do mesmo tema, embora com opiniões
+        divergentes, expressas no primeiro texto por meio da
+        ficção e, no segundo, por análise sociológica.</label>
+    
+            <label for="b5"><input type="radio" id="b5" name="resposta5" value="b">b) foi usada, em ambos, linguagem de caráter moralista em
+        defesa de uma mesma tese: a literatura, muitas vezes, é
+        nociva à formação do jovem estudante</label>
+    
+            <label for="c5"><input type="radio" id="c5" name="resposta5" value="c">c) são utilizadas linguagens diferentes nos dois textos, que
+        apresentam um mesmo ponto de vista: a literatura deixa
+        ver o que se pretende esconder.</label>
+    
+            <label for="d5"><input type="radio" id="d5" name="resposta5" value="d">d) a linguagem figurada é predominante em ambos, embora
+        o primeiro seja uma fábula e o segundo, um texto
+        científico.</label>
+    
+            <label for="e5"><input type="radio" id="e5" name="resposta5" value="e">e) o tom humorístico caracteriza a linguagem de ambos os
+        textos, em que se defende o caráter pedagógico da
+        literatura</label>
+    
+            <div class="resultado" id="resultado5"></div>
+    
+            <button type="button" onclick="verificarRespostasIndividual(5, 'c')">Verificar Resposta</button>
+    
+            </div>
+    
+            <div id="pergunta6">
+    
+                <label data-resposta-correta="a">6. (Enem cancelado 2009) Texto I <br>
+        No meio do caminho tinha uma pedra <br>
+        tinha uma pedra no meio do caminho<br>
+        tinha uma pedra<br>
+        no meio do caminho tinha uma pedra<br>
+        [...]
+        ANDRADE, C. D. Reunião. Rio de Janeiro: José
+        Olympio, 1971 (fragmento).<br>
+        Texto II<br>
+        As lavadeiras de Mossoró, cada uma tem sua pedra no rio:
+        cada pedra é herança de família, passando de mãe a filha,
+        de filha a neta, como vão passando as águas no tempo [...].
+        A lavadeira e a pedra formam um ente especial, que se
+        divide e se reúne ao sabor do trabalho. Se a mulher entoa
+        uma canção, percebe-se que a nova pedra a acompanha em
+        surdina...<br>
+        [...]
+        ANDRADE, C. D. Contos sem propósito. Rio de
+        Janeiro: Jornal do Brasil, Caderno B, 17/7/1979
+        (fragmento).<br>
+        Com base na leitura dos textos, é possível estabelecer uma
+        relação entre forma e conteúdo da palavra “pedra”, por
+        meio da qual se observa</label>
+    
+     
+    
+                    <label for="a6"><input type="radio" id="a6" name="resposta6" value="a">a) o emprego, em ambos os textos, do sentido conotativo da
+        palavra “pedra”.  </label>
+    
+                    <label for="b6"><input type="radio" id="b6" name="resposta6" value="b">b) a identidade de significação, já que nos dois textos,
+        “pedra” significa empecilho.</label>
+    
+                    <label for="c6"><input type="radio" id="c6" name="resposta6" value="c">c) a personificação de “pedra” que, em ambos os textos,
+        adquire características animadas</label>
+    
+                    <label for="d6"><input type="radio" id="d6" name="resposta6" value="d">d) o predomínio, no primeiro texto, do sentido denotativo
+        de “pedra” como matéria mineral sólida e dura.</label>
+    
+                    <label for="e6"><input type="radio" id="e6" name="resposta6" value="e">e) a utilização, no segundo texto, do significado de “pedra”
+        como dificuldade materializada por um objeto.</label>
+    
+                    <div class="resultado" id="resultado5"></div>
+    
+                    <button type="button" onclick="verificarRespostasIndividual(6, 'a')">Verificar Resposta</button>
+    
+                </div>
+    
+    
+                   
+    
+        <!-- Adicione mais perguntas conforme necessário -->
+    
+     
+    
+        
+    
+      </form>
+    
+     
+    
+      <script>
+    
+        function verificarRespostas() {
+    
+          verificarRespostasIndividual(1, "a");
+    
+          verificarRespostasIndividual(2, "c");
+    
+          verificarRespostasIndividual(3, "d");
+    
+          verificarRespostasIndividual(4, "b");
+    
+          verificarRespostasIndividual(5, "c");
+    
+          verificarRespostasIndividual(6, "a");
+    
+   
+    
+          // Adicione chamadas para mais perguntas conforme necessário
+    
+        }
+
+    function verificarRespostasIndividual(pergunta, respostaCorreta) {
+      const respostaSelecionada = document.querySelector(`input[name="resposta${pergunta}"]:checked`);
+      const resultadoElement = document.getElementById(`resultado${pergunta}`);
+ 
+      if (!respostaSelecionada) {
+        resultadoElement.textContent = "Por favor, preencha todas as respostas.";
+        resultadoElement.className = "resposta-incorreta";
+        return;
+      }
+ 
+      const respostaSelecionadaValue = respostaSelecionada.value;
+ 
+      if (respostaSelecionadaValue === respostaCorreta) {
+        resultadoElement.textContent = `Parabéns! A resposta está correta.`;
+        resultadoElement.className = "resposta-correta";
+      } else {
+        resultadoElement.textContent = `Infelizmente, a resposta está incorreta.`;
+        resultadoElement.className = "resposta-incorreta";
+      }
+    }
+  </script>
+ 
+</body>
+</html>
